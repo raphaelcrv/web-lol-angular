@@ -1,0 +1,52 @@
+<div class="modal-header">
+	<h3 class="modal-title">{{hero.name}}</h3>
+	<p>{{hero.title}}</p>
+</div>
+<div class="modal-body">
+	<div class="row">
+		<!-- coluna 1 -->
+		<div class="col col-xs-6">
+			<p>
+				<span class="stat-label stat-hp">
+					Vida: {{hero.stats.armor}}
+				</span>
+			</p>
+			<p>
+				<span class="stat-label stat-ad">
+					Dano Ataque:
+				</span>
+			</p>
+			<p>
+				<span class="stat-label stat-as">
+					Velocidade Ataque:
+				</span>
+			</p>
+			<p>
+				<span class="stat-label stat-ms">
+					Velocidade Movimeto:
+				</span>
+			</p>
+		</div>
+		<!-- Coluna 2 -->
+		<div class="col col-x6-6">
+			<p>
+				<span class="stat-label stat-hp-green">
+					Regeneração de Vida: {{hero.stats.armor}}
+				</span>
+			</p>
+			<p>
+				<span class="stat-label stat-armor">
+					Armadura:
+				</span>
+			</p>
+			<p>
+				<span class="stat-label stat-mr">
+					Resistência Mágica:
+				</span>
+			</p>
+		</div>
+	</div>
+</div>
+<div class="modal-footer">
+	<button class="btn btn-warning" type="button" ng-click="exit()">Sair</button>
+</div>

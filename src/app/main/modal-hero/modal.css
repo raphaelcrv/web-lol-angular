@@ -1,0 +1,31 @@
+.stat-hp {
+    background: url("../../../assets/images/icon-sprite.png") no-repeat 0 -150px;
+}
+
+.stat-ad {
+    background: url("../../../assets/images/icon-sprite.png") no-repeat 0 0;
+}
+
+.stat-as {
+        background: url("../../../assets/images/icon-sprite.png") no-repeat 0 -50px;
+}
+
+.stat-ms {
+    background: url("../../../assets/images/icon-sprite.png") no-repeat 0 -75px;
+}
+
+.stat-hp-green {
+    background: url("../../../assets/images/icon-sprite.png") no-repeat 0 -175px;
+}
+
+.stat-armor {
+    background: url("../../../assets/images/icon-sprite.png") no-repeat 0 -25px;
+}
+
+.stat-mr {
+    background: url("../../../assets/images/icon-sprite.png") no-repeat 0 -125px;
+}
+
+.stat-label {
+    padding-left: 30px;
+}

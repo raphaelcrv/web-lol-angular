@@ -1,0 +1,27 @@
+<section class="grid container">
+  <!-- Loading & Error Mensage -->
+  <span ng-show="load">
+    <img class="img-responsive" src="assets/images/loading.gif"/>
+  </span>
+  <span ng-show="error">
+    <h1> Ocorreu um erro contate o suporte </h1>
+  </span>
+  <!-- Heroes List -->  
+  <h1>HEROS</h1>
+  <ul class="list-inline">
+    <li ng-repeat="hero in heroes" class="col col-sm-2"  ng-click="openModal(hero)" >
+      <img class='img-responsive' src="http://ddragon.leagueoflegends.com/cdn/6.13.1/img/champion/{{hero.key}}.png" />
+      <p class="text-center title-hero">{{hero.name}}</p>
+      <p class="text-center">{{hero.title}}</p>
+    </li>
+  </ul>
+<!--
+  <div class="row">
+    <div class="col col-md-2" ng-repeat="hero in heroes">
+      <img class='img-responsive' src="http://ddragon.leagueoflegends.com/cdn/6.13.1/img/champion/{{hero.key}}.png" />
+      <p class="text-center">{{hero.name}}</p>
+      <p class="text-center">{{hero.title}}</p>
+    </div>
+  </div>
+  -->
+</section>
